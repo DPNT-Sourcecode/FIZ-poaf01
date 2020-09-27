@@ -35,20 +35,26 @@ describe('FIZZ challenge: basic operation', function() {
 });
 
 describe('FIZZ DELUXE challenge: basic operation', function() {
-	it('for 333, it should return fizz deluxe', function() {
-	    assert.equal(fizz_buzz(333), 'fizz deluxe');
+	it('for 333, it should return fizz fake deluxe', function() {
+	    assert.equal(fizz_buzz(333), 'fizz fake deluxe');
+	});
+});
+
+describe('FIZZ DELUXE challenge: basic operation', function() {
+	it('for 222, it should return fizz deluxe', function() {
+	    assert.equal(fizz_buzz(222), 'fizz deluxe');
 	});
 });
 
 describe('FIZZ DELUXE challenge: basic operation', function() {
 	it('for 5555, it should return buzz deluxe', function() {
-	    assert.equal(fizz_buzz(5555), 'buzz deluxe');
+	    assert.equal(fizz_buzz(5555), 'buzz fake deluxe');
 	});
 });
 
 describe('FIZZ DELUXE challenge: basic operation', function() {
-	it('for 555, it should return fizz buzz deluxe', function() {
-	    assert.equal(fizz_buzz(555), 'fizz buzz deluxe');
+	it('for 555, it should return fizz buzz fake deluxe', function() {
+	    assert.equal(fizz_buzz(555), 'fizz buzz fake deluxe');
 	});
 });
 
@@ -57,3 +63,5 @@ describe('FIZZ DELUXE challenge: basic operation', function() {
 	    assert.equal(fizz_buzz(4444), 'deluxe');
 	});
 });
+
+
