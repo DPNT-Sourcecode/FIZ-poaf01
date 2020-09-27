@@ -5,20 +5,20 @@ var assert = require('assert');
 const fizz_buzz = require('../../../lib/solutions/FIZ/fizz_buzz');
 
 describe('FIZZ challenge: basic operation', function() {
-	it('for 3, it should return fizz', function() {
-	    assert.equal(fizz_buzz(3), 'fizz');
+	it('for 3, it should return fizz fake deluxe', function() {
+	    assert.equal(fizz_buzz(3), 'fizz fake deluxe');
 	});
 });
 
 describe('FIZZ challenge: basic operation', function() {
-	it('for 5, it should return buzz', function() {
-	    assert.equal(fizz_buzz(5), 'buzz');
+	it('for 5, it should return buzz faek deluxe', function() {
+	    assert.equal(fizz_buzz(5), 'buzz fake deluxe');
 	});
 });
 
 describe('FIZZ challenge: basic operation', function() {
-	it('for 15, it should return fizz buzz', function() {
-	    assert.equal(fizz_buzz(15), 'fizz buzz');
+	it('for 15, it should return fizz buzz fake deluxe', function() {
+	    assert.equal(fizz_buzz(15), 'fizz buzz fake deluxe');
 	});
 });
 
@@ -30,7 +30,7 @@ describe('FIZZ challenge: basic operation', function() {
 
 describe('FIZZ challenge: basic operation', function() {
 	it('for 7583, it should return fizz buzz', function() {
-	    assert.equal(fizz_buzz(7583), 'fizz buzz deluxe');
+	    assert.equal(fizz_buzz(7583), 'fizz buzz');
 	});
 });
 
@@ -41,8 +41,8 @@ describe('FIZZ DELUXE challenge: basic operation', function() {
 });
 
 describe('FIZZ DELUXE challenge: basic operation', function() {
-	it('for 222, it should return fizz deluxe', function() {
-	    assert.equal(fizz_buzz(222), 'fizz deluxe');
+	it('for 222, it should return fizz', function() {
+	    assert.equal(fizz_buzz(222), 'fizz');
 	});
 });
 
@@ -59,8 +59,9 @@ describe('FIZZ DELUXE challenge: basic operation', function() {
 });
 
 describe('FIZZ DELUXE challenge: basic operation', function() {
-	it('for 4444, it should return deluxe', function() {
-	    assert.equal(fizz_buzz(4444), 'deluxe');
+	it('for 4444, it should return 4444', function() {
+	    assert.equal(fizz_buzz(4444), '4444');
 	});
 });
+
 
