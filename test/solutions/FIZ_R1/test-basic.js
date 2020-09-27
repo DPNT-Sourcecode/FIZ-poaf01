@@ -30,7 +30,7 @@ describe('FIZZ challenge: basic operation', function() {
 
 describe('FIZZ challenge: basic operation', function() {
 	it('for 7583, it should return fizz buzz', function() {
-	    assert.equal(fizz_buzz(7583), 'fizz buzz');
+	    assert.equal(fizz_buzz(7583), 'fizz buzz deluxe');
 	});
 });
 
@@ -63,5 +63,4 @@ describe('FIZZ DELUXE challenge: basic operation', function() {
 	    assert.equal(fizz_buzz(4444), 'deluxe');
 	});
 });
-
 
